@@ -24,7 +24,7 @@ services:
     restart: always
     environment:
       - NGINX_PROXY_CONTAINER=Reverse-Proxy
-      - VIRTUAL_HOST=apps-mrsi.ddns.net
+      - VIRTUAL_HOST=apps-antonio.ddns.net
       - VIRTUAL_PATH=/.well-known
     volumes:
       - /volumes/nginx/certs:/etc/nginx/certs
