@@ -7,7 +7,7 @@ lets-encrypt:
     container_name: 'Lets-Encrypt'
     restart: always
     environment:
-      - NGINX_PROXY_CONTAINER=Reverse-Proxy
+      - NGINX_PROXY_CONTAINER=Portal
       - VIRTUAL_HOST=portal-antonio.ddns.net
       - VIRTUAL_PATH=/.well-known
     volumes:
